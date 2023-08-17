@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header>
+        <h1>Portafolio de Gastón Estacio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="proyectos.html" >Proyectos</a></li>
+                <li><a href="sobre mi.html" >Sobre mí</a></li>
+                <li><a href="contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Envianos tu Correo</h2>
+        <form action="enviar_correo.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar mensaje</button>
+          </form>
+          
+
+    </main>
+
+    <footer>
+        <p id="year">Derechos Reservados &copy; [Año] [Gastón Estacio]</p>
+    </footer>
+
+    <script src="sobremi.js"></script>
+</body>
+</html>

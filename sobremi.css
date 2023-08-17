@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+    
+    background-color: #ffffff; /* Fondo violeta */
+    color: #fff; /* Texto en blanco */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mínimo alto de la pantalla */
+}
+
+header {
+    background-color: #4b0082; /* Fondo violeta oscuro para el encabezado */
+    padding: 1rem;
+    text-align: center;
+    width: 100%; /* Ocupar todo el ancho */
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    flex: 1; /* Ocupar todo el espacio disponible en la columna */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido verticalmente */
+    padding: 1rem;
+}
+
+/* Estilos para la sección de perfil */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+    margin-bottom: 2rem;
+}
+
+.profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para la imagen */
+}
+
+.description {
+    background-color: #4b0082; /* Fondo violeta oscuro */
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center; /* Centrar el texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el cuadro de texto */
+
+    /* Ajustar el ancho del contenedor y reducir el espacio horizontal */
+    max-width: 500px;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #4b0082; /* Fondo violeta para el footer */
+    padding: 1rem;
+    text-align: center;
+    width: 100%; /* Ocupar todo el ancho */
+}

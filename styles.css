@@ -1,0 +1,121 @@
+header {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Espacio flexible entre los elementos */
+    background-color: #f2f2f2; /* Color de fondo del encabezado */
+    padding: 1rem; /* Agrega un relleno para dar espacio al contenido */
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.header-IMG {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+    margin-right: 10px; /* Ajusta el margen derecho para separar la imagen del contenido */
+}
+
+header img {
+    width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mínimo alto de la pantalla */
+}
+
+header {
+    background-color: #310055;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1; /* Ocupar todo el espacio disponible en la columna */
+    padding: 2rem;
+}
+
+/* Estilos del slider */
+.slider-container {
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    /* Quitamos la transición para un desplazamiento suave */
+    transition: none;
+    /* Combinamos las imágenes en una línea */
+    width: calc(100% * 8); /* 8 imágenes */
+}
+
+.slide {
+    flex: 0 0 12.5%; /* Tamaño de cada imagen (100% / 8 imágenes) */
+}
+
+.slide img {
+    width: 70%;
+    height: auto;
+}
+
+/* Estilos para el footer */
+footer {
+    color: #fff; /* Texto en blanco */
+    background-color: #4b0082; /* Fondo violeta para el footer */
+    padding: 1rem;
+    text-align: center;
+    width: 100%; /* Ocupar todo el ancho */
+    position: fixed; /* Posicionamiento fijo */
+    bottom: 0; /* Colocar en la parte inferior */
+}
+
+
+/* Estilo para el enlace activo */
+nav ul li a.active {
+    border-bottom: 2px solid #fff; /* Subrayado del enlace activo */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
